@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Exercise 15</title>
+
+   <style>
+      .item-container {
+         position: relative;
+         width: 200px;
+         background-color: lightgrey;
+         padding: 30px 20px 30px 20px;
+      }
+      
+      .item {
+         width: 200px;
+      }
+
+      .offer {
+         position: absolute;
+         top: 8px;
+         right: 0;
+         background-color: black;
+         color: white;
+         font-family: Arial;
+         font-size: 13px;
+         padding: 6px 10px 6px 10px;
+      }
+
+      .add-to-cart-container {
+         background-color: rgba(255, 255, 255, 0.7);
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         height: 80px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .add-to-cart-button {
+         border-style: solid;
+         border-width: 1.5px;
+         padding: 10px 15px 10px 15px;
+         font-weight: bold;
+         cursor: pointer;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="item-container">
+         <img class="item" src="/clothing.png">
+         <div class="offer">20% OFF</div>
+         <div class="add-to-cart-container">
+            <button class="add-to-cart-button">Add to Cart</button>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

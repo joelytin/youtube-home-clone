@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Exercise 13</title>
+   <style>
+      div {
+         font-family: Arial;
+         margin-top: 0;
+         margin-bottom: 0;
+      }
+      
+      .container {
+         width: 400px;
+         display: flex;
+         margin-top: 15px;
+         margin-left: 15px;
+      }
+
+      .profile-pic-column {
+         margin-right: 10px;
+      }
+
+      .profile-pic {
+         width: 60px;
+         border-radius: 30px;
+      }
+
+      .tweet-column {
+         flex: 1;
+      }
+
+      .username-row {
+         display: flex;
+         margin-bottom: 5px;
+      }
+
+      .tweet-author {
+         margin-right: 4px;
+         font-weight: bold;
+      }
+
+      .tweet-author-handle {
+         color: rgb(105, 105, 105);
+      }
+
+      .tweet-content {
+         line-height: 20px;
+         margin-bottom: 15px;
+      }
+
+      .media-container {
+         display: flex;
+         align-items: center;
+         border-style: solid;
+         border-radius: 10px;
+         border-width: 1px;
+         border-color: rgb(194, 194, 194);
+         overflow: hidden;
+      }
+
+      .media-thumbnail {
+         width: 100px;
+         height: 100px;
+         background-color: rgb(219, 219, 219);
+         margin-right: 10px;
+      }
+
+      .media-info {
+         flex: 1;
+      }
+
+      .website {
+         color: rgb(105, 105, 105);
+         margin-bottom: 3px;
+      }
+
+      .title {
+         line-height: 20px;
+         margin-right: 10px;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="profile-pic-column">
+         <img class="profile-pic" src="/cat.jpg">
+      </div>
+
+      <div class="tweet-column">
+         <div class="username-row">
+            <div class="tweet-author">supersimple.dev</div>
+            <div class="tweet-author-handle">@SuperSimpleDev</div>
+         </div>
+
+         <div class="tweet-content">
+            What is backend web development? A complete overview. New video is up!
+         </div>
+
+         <div class="media-container">
+            <div class="media-thumbnail"></div>
+            <div class="media-info">
+               <div class="website">youtube.com</div>
+               <div class="title">Backend web development - a complete overview (2021)</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Exercise 14</title>
+   <style>
+      body {
+         height: 3000px;
+      }
+
+      div {
+         font-family: Arial;
+      }
+
+      .sidebar-1 {
+         background-color: rgb(37, 37, 37);
+         position: fixed;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         padding: 10px 10px 0 10px;
+         width: 70px;
+      }
+
+      .profile-picture {
+         width: 50px;
+         border-radius: 25px;
+         margin-bottom: 10px;
+      }
+
+      .sidebar-2 {
+         background-color: rgb(66, 66, 66);
+         position: fixed;
+         top: 0;
+         bottom: 0;
+         left: 70px;
+         padding: 15px 15px 15px 15px;
+         width: 130px;
+      }
+
+      .header {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 10px;
+      }
+
+      .title {
+         color: white;
+         font-size: 14px;
+         font-weight: bold;
+      }
+
+      .create-new {
+         color: gray;
+         font-size: 25px;
+      }
+
+      .channel {
+         color: gray;
+         margin-bottom: 15px;
+      }
+   </style>
+</head>
+<body>
+   <div class="sidebar-1">
+      <img class="profile-picture" src="/cat.jpg">
+      <img class="profile-picture" src="/cat.jpg">
+      <img class="profile-picture" src="/cat.jpg">
+   </div>
+   <div class="sidebar-2">
+      <div class="header">
+         <div class="title">INFO</div>
+         <div class="create-new">+</div>
+      </div>
+      <div class="channel"># new-videos</div>
+      <div class="channel"># updates</div>
+      <div class="channel"># faq</div>
+   </div>
+</body>
+</html>
